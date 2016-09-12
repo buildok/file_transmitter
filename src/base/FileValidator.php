@@ -21,7 +21,6 @@ class FileValidator implements FileValidatorInterface
     */
     public function validate($metod, $fileInfo, $rule)
     {
-        $this->fileInfo = $fileInfo;
         $func = 'check' . ucfirst($metod);
 
         if(!method_exists($this, $func)) {
