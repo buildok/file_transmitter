@@ -1,0 +1,39 @@
+{
+    "name": "buildok/file_transmitter",
+    "description": "File Transmitter",
+    "keywords": [
+        "buildok", "file", "transmit"
+    ],
+    "homepage": "https://github.com/buildok/file_transmitter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "buildok",
+            "email": "buildok@mail.ru",
+            "homepage": "https://github.com/buildok",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.6|~7.0"
+        
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "buildok\\file_transmitter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "buildok\\file_transmitter\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
