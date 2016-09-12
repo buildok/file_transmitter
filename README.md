@@ -26,7 +26,7 @@ use buildok\file_transmitter\PictureTransmitter;
 $pt = new PictureTransmitter(new HttpTransmitter, new FileValidator);
 
 try {
-    if($pt->transmit('https://scotch.io/wp-content/uploads/2015/03/solid-object-oriented-design.jpg', '/var/www/html')) {
+    if($pt->transmit('https://avatars2.githubusercontent.com/u/6459721?v=3&s=460', '/var/www/html')) {
         echo 'transmit OK';
     } else {
         print_r($pt->getErrors());
